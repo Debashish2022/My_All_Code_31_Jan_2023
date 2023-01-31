@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-12 p-4" id="firstbox">
+        <div class="row" id="secondbox">
+          <h5>Create A New Account !</h5>
+          <hr>
+        </div>
+        <div class="row">
+          <form action="">
+            <div class="mb-3" id>
+              <label for="fname" class="form-label" id="name">First Name</label>
+              <input type="text" class="form-control" id="fname" aria-describedby="fname"
+                placeholder="Must have only letters" onchange="fn()"  required>
+              <div class="error1">Please Enter First Name </div>
+            </div>
+           
+            <div class="mb-3">
+              <label for="lname" class="form-label" id="name">Last Name</label>
+              <input type="text" class="form-control" id="lname" aria-describedby="lname"
+                placeholder="Must have only letters" onchange="ln()" required>
+              <div class="error2">Please Enter Last Name </div>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label" id="name">Phone Number</label>
+              <input type="number" class="form-control" id="phone" aria-describedby="emailHelp"
+                placeholder="please enter your mobile number" onchange="email()" required>
+              <div id="emailHelp" class="form-text">Please Enter Email</div>
+            </div>
+            <div class="mb-3">
+              <label for="emailid" class="form-label" id="name">Email Address</label>
+              <input type="email" class="form-control" id="emailid" aria-describedby="emailHelp"
+                placeholder="name@gmail.com" onchange="email()" required>
+              <div id="emailHelp" class="form-text">Your Data Will Be End To End Encrypted.</div>
+              <div class="error3">Please enter a valid Email address</div>
+            </div>
+            <div class="mb-3">
+              <label for="Password" class="form-label" id="name">Password </label>
+              <input type="password" class="form-control" id="password" aria-describedby="password" onchange="pcheck()"
+                required placeholder="Enter your password">
+              <div id="emailHelp" class="form-text">We'll never share your Password with anyone .</div>
+              <div class="error4">Password must contain one Uppercase letter, one number and a special character</div>
+            </div>
+            <!-- <div class="mb-3">
+              <label for="confirmpassword" class="form-label"id="name">Confirm Password</label>
+              <input type="password" class="form-control" id="confirmpassword"
+                placeholder="Password should be same as above password" onchange="cpcheck()" required>
+              <div id="passwordHelpBlock" class="form-text">
+                Re-enter the above password
+              </div>
+              <div class="error5">*Password Should Be Same As Above Password</div>
+            </div> -->
+            <div class="checkbox-text">
+              <div class="checkbox-content"id="check">
+                <input type="checkbox" id="logcheck">
+                <label for="logcheck" class="text">I Have Accepted All The Terms And Conditions !</label>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <button type="button" class="btn btn-primary p-1" onclick="savedata()" id="signupbtn"
+                style="width: 110px; height: auto;">Signup</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="first.js"></script>
+</body>
+</html>
