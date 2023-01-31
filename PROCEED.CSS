@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to right,white,green,blue,white);
+}
+.seconddiv{
+    border:1px solid black;
+    padding:10px;
+    margin-left: 360px;
+    margin-right: 360px;
+    margin-top: 130px;
+   border-radius: 20px;
+   background-image: linear-gradient(to right,#ffff4d,#ff99c2);
+}
+h2{
+    text-align: center;
+    color:blue;
+}
+.input-box {
+    border-bottom: 1px solid red;
+    margin: 30px;
+    width: 80%;
+    padding-top: 10px;
+
+}
+.input-box input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: black;
+    font-size: 15px;
+}
+
+.checkbox {
+    margin-left: 27px;
+    margin-top: -20px;
+    color:red;
+}
+
+#loginbtn {
+    margin-left: 110px;
+    margin-top: 50px;
+    width:240px;
+}
+button {
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    background-color:  #ff0066;
+    border-color: #804000;
+    font-weight: bold;
+    color:white;
+}
