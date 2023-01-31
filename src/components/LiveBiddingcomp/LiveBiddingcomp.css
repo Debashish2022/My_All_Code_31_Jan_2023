@@ -1,0 +1,61 @@
+#bidcard1{
+    background-image: linear-gradient(135deg, #085CA6,  #44C1F2);
+     padding: 2rem;
+     border-radius: .4rem;
+     margin-bottom: 1rem;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    }
+#bidcard2{
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-family: inter;
+    color: #fff;
+    text-transform: uppercase;
+}
+#bidcard3{
+    background-color: #1F2230;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-family: inter;
+    font-weight: 300;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+
+}
+#bidcard4{
+    background-color: white;
+    color : #085CA6;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 1.5rem;
+    
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+#bidcard5{
+    font-size: xx-large !important; 
+    font-weight: 700;
+}
+#bidcard6{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#bidcard7{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+#bidcard8{
+    font-weight: 700;
+    font-family: inter;
+    font-size: medium;
+    padding-left: .7rem;
+    margin-bottom: .5rem;
+}
+#bidcard9{
+    text-decoration: none;
+}

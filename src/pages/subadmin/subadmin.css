@@ -1,0 +1,42 @@
+#div1{
+  
+    border:1px solid #03195D;
+    padding:30px;
+    margin-top:30px;
+}
+#div2{
+    color:#E88230;
+    font-size: 1.5rem;
+    font-family: Inter;
+    margin-top: 0.6rem;
+}
+#color{
+color:#03195D;
+font-size: 1rem;
+font-family: inter;
+}
+
+#grey{
+    color:#585858;
+    font-family: inter;
+    font-size: 1.4rem;
+}
+#navbar{
+    color: #000000;
+    font-size:1.2rem;
+    font-family: inter;
+}
+#mylogo{
+    height:3.5rem;
+}
+#style{
+    font-size: 1.4rem;
+    font-family: inter;
+}
+#name{
+    border:1px solid black;
+    color:white;
+    font-size: 1.5rem;
+    background-color:#03195D;
+    padding: 0.5rem;
+}

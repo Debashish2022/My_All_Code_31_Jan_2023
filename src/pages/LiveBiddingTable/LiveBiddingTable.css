@@ -1,0 +1,49 @@
+#mylogo{
+    width:2.5rem;
+}
+#btn{
+    width: 100%;
+    font-size: 0.9rem;
+    background: #03195D;
+    border-radius: 5px;
+    font-family: 'Inter';
+}
+#con2{
+    margin-top: 1.5rem;
+}
+#con1{
+    background: linear-gradient(115.72deg, #44C1F2 -3.62%, #085CA6 105.85%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+#col1{
+    border-radius: 5px;
+}
+#con6{
+    margin-top: 4rem;
+    background: linear-gradient(115.72deg, #44C1F2 -3.62%, #085CA6 105.85%);
+    overflow-x: auto;
+    padding:5px;
+    border-radius: 5px;
+}
+
+#con7 tbody tr td, th{
+    border: none;
+    font-family: 'Inter';
+    color:white;
+}
+#btn2{
+    background:#E41212;
+    font-family: 'Inter';
+}
+#btn3{
+    background:#03195D;
+    font-family: 'Inter';
+}
+#btn4{
+    background:#03195D;
+    font-family: 'Inter';
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: #0B3ED9;
+}
+#div1{
+    text-align: center;
+    margin-top: 7rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color:white;
+    font-family: inter;
+}
+#div2{
+    text-align: center;
+    color:white;
+    font-family: inter;
+}
+#form1{
+    margin-top: 1.5rem;
+    background-color: transparent;
+}
+#myid{
+    background-color: transparent;
+}
+#form2{
+    margin-top:2rem;
+}
+#mybtn{
+    width:100%;
+    margin-top: 1rem;
+    background-color: #03195E;
+    color: white;
+    font-family: inter;
+}

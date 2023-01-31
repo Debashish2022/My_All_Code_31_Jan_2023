@@ -1,0 +1,140 @@
+#navbar{
+    color: #000000;
+    font-size: 1rem;
+    font-family: 'Inter';
+}
+#navbar:hover{
+    color: linear-gradient(115.72deg, #44C1F2 -3.62%, #085CA6 105.85%);
+    border-bottom:2px solid orangered;
+    border: bottom radius 1.2rem; 
+}
+#mylogo{
+    width:2.5rem;
+}
+#firstdiv{
+    border:1px solid black;
+    color:white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    
+}
+#Seconddiv{
+    font-family: 'Inter';
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:10px;
+}
+
+#Thirddiv{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1.1rem;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #1F2230;
+}
+#lastdiv{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 0.7rem;
+text-align: center;
+letter-spacing: 0.01em;
+color: #1F2230;
+}
+#mydiv{
+    font-family: 'Inter';
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#bids{
+    margin-left: 1rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 0.8rem;
+line-height: 18px;
+letter-spacing: 0.01em;
+
+color: #1F2230;
+    
+}
+#bid2{
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius:5px;
+    padding-top: 7px;
+    font-size: 1rem;
+    width: 1rem;
+    padding-bottom: 7px;
+    width: 5rem;
+}
+#bid3{
+    margin-top: 1.5rem;
+    padding:30px;
+}
+#bid4{
+    background-color: #000000;
+    text-align: center;
+    color:white;
+    font-family: 'Inter';
+    border-radius:5px;
+    padding-top: 7px;
+    font-size: 1rem;
+    padding-bottom: 7px;
+}
+#con1{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background: linear-gradient(115.72deg, #44C1F2 -3.62%, #085CA6 105.85%);
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#con2{
+    border-radius: 0.4rem;
+    border-color: transparent;
+}
+#con3{
+    color: white;
+    font-weight: 700;
+}
+#con4{
+    color: white;
+}
+#con5{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+#lastcon{
+    background: linear-gradient(115.72deg, #44C1F2 -3.62%, #085CA6 105.85%);
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+margin-top:20px;
+text-align:center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 39px;
+letter-spacing: 0.01em;
+padding:10px;
+color: #FFFFFF;
+}

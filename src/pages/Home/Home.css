@@ -1,0 +1,63 @@
+.maindiv{
+padding-top:20px;
+}
+.btn{
+    width:100%;
+    background-color: #000066;
+    color:white;
+}
+h3{
+    padding-top:10px;
+}
+.password{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+#home{
+    font-family:exo;
+    color:#000099;
+}
+#mainimage{
+    width:100%;
+    padding:0px;
+}
+    #mylogo{
+        height:2.5rem;
+    }
+#mylogo2{
+    width: 90px;
+    height:90px;
+    margin-top:45px;
+}
+.footer{
+    background-color: #000718;
+}
+.myfooter{
+    padding:30px;
+    margin-top:30px;
+}
+#style{
+    font-family:exo;
+    color:white;
+}
+#home7{
+    text-align: center;
+    font-family:exo;
+    color:#000099;
+}
+#codekart{
+    text-align:center;
+    color: white;
+    font-family:exo;
+    padding-bottom: 10px;
+}
+#para{
+    font-family:exo;
+    border-color: #0000b3;
+}
+
+li{
+    list-style-type: none;
+    font-family:exo;
+}
