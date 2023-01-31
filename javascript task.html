@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-image: url(https://thumbs.dreamstime.com/b/math-symbols-21856242.jpg);
+      background-size: cover;
+    }
+    div{
+      width: 40%;
+      height: 300px;
+      background-color: white;
+      padding: 23px;
+      position: relative;
+      left: 350px;
+      top: 170px;
+      border:3px solid red;
+      border-radius: 10px;
+  }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1 id="st">Enter<h1>
+        <h1 id="kk"></h1>
+        <hr>
+        <h1 id="ll"></h1>
+  </div>
+
+  <script>
+    function sum() {
+      var a = 16;
+      var b = 19;
+      document.getElementById("st").innerHTML = "First Number:" + a;
+      document.getElementById("kk").innerHTML = "Secound Number:" + b;
+      document.getElementById("ll").innerHTML = "Sum of two number is =" + (a + b);
+    //   document.getElementById("st").style.color
+    }
+    sum()
+  </script>
+
+</body>
+
+</html>

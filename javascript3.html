@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        body {
+            background-image: url("https://images.unsplash.com/photo-1625225233840-695456021cde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsY3VsYXRvcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+            background-size: cover;
+        }
+
+        div {
+            border: 3px solid orangered;
+            margin-left: 200px;
+            margin-right: 540px;
+            padding: 15px;
+            border-radius: 30px;
+            position: relative;
+            top: 190px;
+            text-align: center;
+            font-family: sans-serif;
+
+        }
+
+        .hr {
+            border-color: blue;
+        }
+
+        hr {
+            border-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="myid"></h1>
+        <hr>
+        <h2 id="firstid"></h2>
+        <h2 id="secondid"></h2>
+        <hr class="hr">
+        <h2 id="thirdid"></h2>
+    </div>
+    <script>
+        function arithmetic() {
+            var firstnum = 23;
+            var secondnum = 45;
+            document.getElementById("myid").innerHTML = "SUM OF TWO NUMBERS!";
+            document.getElementById("firstid").innerHTML = " My First Number:" + firstnum;
+            document.getElementById("secondid").innerHTML = " My Second Number:" + secondnum;
+            document.getElementById("thirdid").innerHTML = "The Final value Is:" + (firstnum + secondnum);
+        }
+        arithmetic()
+    </script>
+</body>
+
+</html>
