@@ -1,0 +1,87 @@
+#payout1{
+    border: 1px solid green;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    color: white;
+    background-color: green;
+    border-radius: 0.2rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+#payout2{
+    border-radius: 0.3rem;
+    height: 1.7rem;
+    font-size: 0.8rem;
+    width: 5rem;
+}
+#payout3{
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+#payout4{
+    margin: 3.8rem 1rem 1rem 1rem;
+}
+#payout5{
+    border: 1px solid;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 1rem;
+    color: green;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+#payout6{
+    font-size: 0.9rem;
+    color: #A0041E;
+    border: 1px solid #A0041E;
+    border-radius: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    text-align: center;
+}
+#payout7{
+    padding-left: 4.7rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#payout8{
+    width: 12rem;
+}
+@media only screen and (max-width: 700px) {
+    #payout4{
+        margin: 3.8rem 1rem 1rem 1rem;
+        width: 92%;
+    }
+    #payout8{
+        width: 13.8rem;
+    }
+    #payout7{
+        padding-left: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (min-width: 820px) {
+    #payout4{
+        margin: 3.8rem 1rem 1rem 1rem;
+        width: 95%;
+    }
+    #payout8{
+        width: 13.8rem;
+    }
+}
+
+#payout10 {
+    overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#payout11 {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: white;
+    background-color: #388E3C;
+    margin-top: 1rem;
+}
