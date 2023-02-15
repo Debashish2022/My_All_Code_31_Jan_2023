@@ -18,6 +18,7 @@ import UpdateResellerModal from "./components/UpdateResellerDataModal/UpdateRese
 import UserProfileAccount from "./pages/UserProfileAccount/UserProfileAccount";
 // import Chart from "react-apexcharts";
 export default function App() {
+  
   return (
     <>
       <ToastContainer />
