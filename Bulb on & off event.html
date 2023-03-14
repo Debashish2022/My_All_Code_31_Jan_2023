@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb on off eventu</title>
+    <style>
+        #bulboff {
+            height: 400px;
+            width: 400px;
+            margin-left: 300px;
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            background-color: aqua;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://img.ehowcdn.com/375/photos.demandstudios.com/getty/article/94/167/163744494.jpg" id="bulboff">
+    <button onclick="bulb_is_on()">On</button>
+    <button onclick="bulb_is_off()">Off</button>
+
+    <script>
+        function bulb_is_on() {
+            document.querySelector("img").src = "https://cdn.mos.cms.futurecdn.net/HaPnm6P7TZhPQGGUxtDjAg-320-80.jpg";
+        }
+        function bulb_is_off() {
+            document.querySelector("img").src = "https://img.ehowcdn.com/375/photos.demandstudios.com/getty/article/94/167/163744494.jpg";
+        }
+    </script>
+</body>
+
+</html> 

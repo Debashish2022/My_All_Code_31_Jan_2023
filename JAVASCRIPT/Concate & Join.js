@@ -1,0 +1,10 @@
+var heading=("CONCAT");
+console.log(heading);
+var d=["Jitendra","Deba","Siba"];
+console.log(d);
+var a =["Jitendra","Deba","Siba"];
+var b=["Raju","Siba"];
+var c=a.concat(b);
+console.log(c);
+var heading=("JOIN");
+console.log(heading);

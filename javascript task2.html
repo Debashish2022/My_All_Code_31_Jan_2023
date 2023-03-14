@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum_of...................</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bag">
+    <div>
+        <p class="ft">1st_Number: <input id="first" required placeholder="Enter a number"></p>
+        <p class="sd">2nd_Number: <input id="second" placeholder="Enter a number"></p>
+        <button onclick="add()">Sum</button>
+        <!-- <p class="last"><input id="ans" placeholder="rsult"></p> -->
+        <h2 id="an"></h2>
+    </div>
+
+    <script>
+        function add() {
+            var F_num = parseInt(document.getElementById("first").value);
+            var S_num = parseInt(document.getElementById("second").value);
+            var sum = F_num + S_num;
+            document.getElementById("an").innerHTML = "Sum of two number is="+sum;
+        }
+        add();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#container{
+    background-color: lightsteelblue;
+    height: 100%;
+}
+
+/* #formRow {
+    display: flex;
+    align-items: center;
+height: 100vh;
+}
+#submit{
+justify-content: center;
+display: flex;
+}
+*/
+#button{
+   text-align: center;
+   margin-top: 2rem;
+} 

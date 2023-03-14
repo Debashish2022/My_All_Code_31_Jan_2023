@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript practice</title>
+    <style>
+        body {
+            background-image: url("https://image.shutterstock.com/image-illustration/gradient-color-basic-math-operation-260nw-1877801464.jpg");
+            background-size: cover;
+        }
+
+        div {
+            border: 5px solid black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            margin-left: 550px;
+            margin-right: 200px;
+            top: 120px;
+            border-radius: 30px;
+            padding: 30px;
+            border-color: yellowgreen;
+        }
+
+        hr {
+            border-color: blue;
+        }
+
+        input {
+            border-radius: 10px;
+            height: 30px;
+        }
+
+        button {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 id="thirdid"></h1>
+        <hr>
+        <h2 id="firstid">My First Number:<input id="Deba" placeholder="Enter Number" type="number" required></h2>
+        <h2 id="Secondid">My Second Number:<input id="Bhadrak" placeholder="Enter Number" type="number" required></h2>
+        <button onclick="addition()">+</button>
+        <button onclick="substraction()">-</button>
+        <button onclick="multiplication()">*</button>
+        <button onclick="division()">/</button>
+        <hr>
+        <h2 id="total"></h2>
+    </div>
+    <script>
+        function addition() {
+            document.getElementById("thirdid").innerHTML = "SUM OF TWO NUMBERS!";
+            var firstnum = parseInt(document.getElementById("Deba").value);
+            var secondnum = parseInt(document.getElementById("Bhadrak").value);
+            var arithmetic = firstnum + secondnum;
+            document.getElementById("total").innerHTML = "Total=" + arithmetic;
+        }
+        function substraction() {
+            document.getElementById("thirdid").innerHTML = "SUM OF TWO NUMBERS!";
+            var firstnum = parseInt(document.getElementById("Deba").value);
+            var secondnum = parseInt(document.getElementById("Bhadrak").value);
+            var arithmetic = firstnum - secondnum;
+            document.getElementById("total").innerHTML = "Total=" + arithmetic;
+        }
+        function multiplication() {
+            document.getElementById("thirdid").innerHTML = "SUM OF TWO NUMBERS!";
+            var firstnum = parseInt(document.getElementById("Deba").value);
+            var secondnum = parseInt(document.getElementById("Bhadrak").value);
+            var arithmetic = firstnum * secondnum;
+            document.getElementById("total").innerHTML = "Total=" + arithmetic;
+        }
+        function division() {
+            document.getElementById("thirdid").innerHTML = "SUM OF TWO NUMBERS!";
+            var firstnum = parseInt(document.getElementById("Deba").value);
+            var secondnum = parseInt(document.getElementById("Bhadrak").value);
+            var arithmetic = firstnum / secondnum;
+            document.getElementById("total").innerHTML = "Total=" + arithmetic;
+        }
+
+        addition()
+        substraction()
+        multiplication()
+        division()
+    </script>
+</body>
+
+</html>

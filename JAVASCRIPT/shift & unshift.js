@@ -1,0 +1,24 @@
+var a = "SHIFT :";
+console.log(a);
+var b=[43,65,87];
+console.log(b);
+var c=[43,65,87];
+c.shift();
+console.log(c);
+var d =["Ramesh","Rajesh","Suresh"];
+console.log(d);
+var e=["Ramesh","Rajesh","Suresh"];
+e.shift();
+console.log(e);
+var a="UNSHIFT :";
+console.log(a);
+var b =[54,76,43,32,86];
+console.log(b);
+var c=[54,76,43,32,86];
+c.unshift(100);
+console.log(c);
+var d=["Ram","Deba","Siba"];
+console.log(d);
+var e=["Ram","Deba","Siba"];
+e.unshift("Asish")
+console.log(e);

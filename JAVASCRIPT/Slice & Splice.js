@@ -1,0 +1,12 @@
+var a ="SLICE";
+console.log(a);
+var b =[43,65,98,54];
+console.log(b);
+var c = [43,65,98,54];
+var d = c.slice(1,3);
+console.log(d);
+var e = ["Ashu","Deba","Siba"];
+console.log(e);
+var f=["Ashu","Deba","Siba"];
+var g=f.slice(1,3);
+console.log(g);
