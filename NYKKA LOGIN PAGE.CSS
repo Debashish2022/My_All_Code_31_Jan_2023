@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to right, red, green, blue, black);
+
+}
+
+.logo {
+    height: 50px;
+    position: fixed;
+    margin-top: -80px;
+
+}
+
+.maindiv {
+
+    width: 380px;
+    margin-left: 450px;
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 30px;
+    background-image: linear-gradient(pink, yellow, white);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+hr {
+    border-color: #ff0066;
+}
+
+img {
+    margin-left: 60px;
+}
+
+.register {
+
+    text-align: center;
+    padding: 7px;
+    background-color: #ff0066;
+    color: white;
+}
+
+.google {
+    border: 1px solid grey;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+    background-color: azure;
+
+}
+
+.icon {
+    height: 25px;
+    margin-top: 4px;
+    margin-left: -70px;
+}
+
+#google {
+
+    margin-top: -29px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.privacy {
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+}.links {
+    text-decoration: none;
+}
