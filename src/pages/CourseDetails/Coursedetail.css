@@ -1,0 +1,16 @@
+#addcoursebutton {
+  background-color: #F05904;
+    color: #EFF1FE;
+    border: 0.4rem solid #EFF1FE;
+    font-weight: 500;
+}
+#rowdiv{
+    display: flex;
+    background-color: black;
+}
+
+#courses1 {
+  color: #ffffff;
+  font-size: x-large;
+font-weight: 600;
+}

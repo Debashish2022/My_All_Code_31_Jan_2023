@@ -1,0 +1,35 @@
+.mainCardContainer {
+  background-color: white;
+  margin: 0.6rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#staricon {
+  display: flex;
+  flex-direction: row;
+}
+#hidetext {
+  font-size: 0.6rem;
+}
+#icondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+#coursecard1{
+  font-family: Jost;
+  font-size: large;
+  font-weight: 400;
+  color: #292C31;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+#coursecard2{
+  font-family: Jost;
+  font-size: small;
+  font-weight: 400;
+  color: #292C31;
+}
