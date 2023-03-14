@@ -1,0 +1,41 @@
+#login1{
+    max-width: 25rem;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    min-height: 55vh;
+}
+#login2{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+#login3{
+    height: 100vh;
+    background-image: linear-gradient(to left, #243972 , #14234A);
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#login4{
+    margin-bottom: 1rem;
+}
+#login5{
+    height: 2.5rem;
+}
+#login6{
+    color: #C94A22;
+    text-align: center;
+    font-weight: 700;
+}
+#login7{
+    text-align: center;
+}
+#login8{
+        text-align: center;
+        font-weight: 700;
+        margin-top: 1.5rem;
+        color: #454545;
+}
