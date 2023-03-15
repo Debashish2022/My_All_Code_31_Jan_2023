@@ -1,0 +1,61 @@
+#OpenAuction1{
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    border: 1px solid #000000;
+}
+#OpenAuction2{
+    padding-bottom: 0.5rem;
+    border: 1.4px solid black;
+    padding-top: 0.5rem;
+}
+#OpenAuction3{
+    margin-top: 1.7rem;
+}
+#OpenAuction4{
+    background-color: #E47013;
+    border: 0px;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#OpenAuction5{
+    text-align: center;
+}
+#OpenAuction6{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 0.3rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    padding-left: 1rem;
+}
+/* #OpenAuction7{
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+} */
+#OpenAuction8{
+    margin-top: 0.5rem;
+}
+#OpenAuction9{
+    margin-top: 0.3rem;
+}
+
+#uploadBtnOpenauction {
+    padding: 0.55rem;
+    width: 100%;
+    background-color: #E47013;
+    border: 0px;
+    margin: 0px;
+}
+
+#uploadBiddingSheetBtn {
+    padding: 0.55rem;
+    width: 100%;
+    background-color: #E47013;
+    border: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,62 @@
+#loginTxt {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: x-large;
+  line-height: 1.5rem;
+  letter-spacing: 0.01em;
+  color: #0b3ed9;
+  margin-top: 2rem;
+}
+
+#loginBtn {
+  width: 100%;
+  height: 2.5rem;
+  background: #362989;
+  border-radius: 5px;
+}
+
+#loginInputLabels {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 0.5rem;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 0.8rem;
+}
+
+#loginInputFields {
+  border: 1px solid #0b3ed9;
+  border-radius: 5px;
+}
+
+#loginInputFieldsEmail {
+  text-transform: lowercase;
+  border: 1px solid #0b3ed9;
+  border-radius: 5px;
+}
+
+#loginPasswordInputFields {
+  border: 1px solid #0b3ed9;
+  border-radius: 5px;
+}
+
+#loginPasswordInputField {
+  border: none
+}
+
+#lostYourPasswordTxt {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 0.5rem;
+  letter-spacing: 0.01em;
+  color: red;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+

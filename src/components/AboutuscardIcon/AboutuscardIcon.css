@@ -1,0 +1,35 @@
+#abtuscardicon1 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  /* padding-left: 0.2rem;
+  padding-right: 0.2rem; */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #b1ffd0;
+}
+
+#iconsName {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #362989;
+  font-family: Exo;
+}
+
+#countNum {
+  /* display: flex;
+  align-items: center; */
+  font-size: medium;
+  color: #362989;
+  text-align: center;
+}
+
+#icontitle{
+  font-size: medium;
+  color: #362989;
+  text-align: center;
+} 
+
+

@@ -1,0 +1,31 @@
+#myauction1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+#auctionsName{
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 0.5rem;
+    margin: 2rem 0rem 1rem 0rem;
+    background: linear-gradient(180deg, #44C1F2 0%, #3658BF 100%);
+}
+
+#loadmoreBtnMyauctionComp {
+    width: 100%;
+    border: 1px solid #e47013;
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+}

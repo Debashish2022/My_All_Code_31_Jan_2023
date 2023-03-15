@@ -1,0 +1,41 @@
+#getintouch1{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);-webkit-box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+padding: 1rem;
+background: #fff;
+margin-top: 1rem;
+border-radius: 1.4rem;
+border: 3px solid #0B3ED9;
+}
+
+#getintouch2{
+    color: blue;
+    margin-top: 1rem;
+    font-family: "exo";
+    font-weight: 400;
+    font-size: small;
+    
+}
+#getintouch3{
+    margin-top: 1rem;
+    margin-bottom: .6rem;
+}
+#getintouch4{
+
+    font-family: "exo";
+    font-weight: 700;
+    color: #0B3ED9;
+    font-size: xx-large;
+    padding-left: 1rem;
+}
+#getintouch5{
+    font-family: 'exo';
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: medium;
+    margin-top: .7rem;
+    padding-left: 1rem;
+
+}
+#getintouch6{
+    font-family: Exo;
+}

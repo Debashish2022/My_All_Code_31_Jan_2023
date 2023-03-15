@@ -1,0 +1,76 @@
+#common1{
+    padding: 0px;
+    position: relative;
+}
+#common2{
+    width: 100%;
+    height: 48vh;  
+}
+#common3{
+    position: absolute;
+    top: 6rem;
+    color: white;
+    left: 6rem;
+}
+#common4{
+    font-size: 2.5rem;
+    font-family:Exo;
+}
+#common5{
+    color: #56e856;
+    font-size: 1.2rem;
+    font-family:Exo;
+    font-weight: 600;
+
+}
+#common6{
+    position: relative;
+}
+@media only screen and (max-width: 900px) {
+    #common2{
+        height: 21vh;
+        position: relative;
+    }
+    #common4{
+        font-size: 2.3rem;
+        font-family:Exo;
+    }
+    #common5{
+        color: green;
+        font-size: 1.3rem;
+        font-family:Exo;
+        font-weight: 600;
+    }
+    #common3{
+        position: absolute;
+        /* top: 6rem; */
+        top: 5rem;
+        color: white;
+        left: 3rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #common2{
+        height: 20vh;
+        position: relative;
+    }
+    #common4{
+        font-size: 1.2rem;
+        font-family:Exo;
+    }
+    #common5{
+        color: green;
+        font-size: 0.8rem;
+        font-family:Exo;
+        font-weight: 600;
+    }
+    #common3{
+        position: absolute;
+        /* top: 6rem; */
+        top: 3rem;
+        color: white;
+        left: 1.7rem;
+    }
+   
+}
+

@@ -1,0 +1,207 @@
+#dahboard1 {
+  display: flex;
+  justify-content: center;
+}
+#dahboard2 {
+  padding-top: 1.5rem;
+}
+#dahboard3 {
+  margin-top: 4rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#dahboard4 {
+  color: #0b3ed9;
+  font-size: 1.5rem;
+  font-family: Exo;
+  font-weight: 700;
+  padding: 0px;
+}
+#dashboard5 {
+  color: #0b3ed9;
+  font-family: Exo;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#dashboard6 {
+  color: #e47013;
+  font-family: "Exo";
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.updateProfileTxt {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.01em;
+  color: #0b3ed9;
+}
+
+#testimonialTxt {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.01em;
+  color: #0b3ed9;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+#testimonialParaTxt {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #0b3ed9;
+  margin-bottom: 0.8rem;
+}
+
+#uploadBtnDashboard {
+  width: 100%;
+  margin: 0px;
+  height: 2.3rem;
+  background: #362989;
+  border-radius: 0.3rem;
+}
+
+#editBtnDashboard {
+  margin: 0px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+  background: #362989;
+  border-radius: 0.5rem;
+}
+
+#inputLabelsDashboard {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #0b3ed9;
+}
+
+#addInputFieldsDashboard{
+  border: 1px solid #0b3ed9;
+  border-radius: 5px;
+}
+
+#uploadedIcon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#addDobDashboard{
+  border: 1px solid #0b3ed9;
+  border-radius: 5px;
+  padding: 0.35rem;
+  width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #profileImgDiv {
+    width: 100%;
+    height: 6rem;
+    padding: 1.5rem;
+    border-radius: 100%;
+    background: #e47013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: "Exo";
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #profileImgDiv {
+    width: 100%;
+    height: 50%;
+    padding: 1.5rem;
+    border-radius: 100%;
+    background: #e47013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: "Exo";
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #profileImgDiv {
+    width: 80%;
+    height: 60%;
+    padding: 1.5rem;
+    border-radius: 100%;
+    background: #e47013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: "Exo";
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #profileImgDiv {
+    width: 80%;
+    height: 9rem;
+    padding: 1.5rem;
+    border-radius: 100%;
+    background: #e47013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: "Exo";
+    font-weight: bold;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #profileImgDiv {
+    width: 80%;
+    height: 9rem;
+    padding: 1.5rem;
+    border-radius: 100%;
+    background: #e47013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Exo";
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+}

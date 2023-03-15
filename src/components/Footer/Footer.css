@@ -1,0 +1,86 @@
+#footer_bg{
+    background-color: #000718;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    height: auto;
+}
+#footer1{
+    margin-top: 2rem;
+}
+#footer2{
+    font-family: Exo;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#footer3{
+    color: white;
+    font-family: Exo;
+    font-weight: 500;
+    font-size: 0.9rem; 
+    margin-top: 0.7rem;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0px;
+}
+#footer4{
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+#footer5{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Exo;
+}
+#footer6{
+    font-size: 0.8rem;
+    text-decoration:none ;
+    color: white;
+}
+#footer7{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+#footer8{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Exo;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+#footer9{
+    width: 9rem;
+    height: 8rem;
+    
+}
+#footer10{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+text-align: center;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 1.5rem;
+}
+
+#codekartTxt {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
