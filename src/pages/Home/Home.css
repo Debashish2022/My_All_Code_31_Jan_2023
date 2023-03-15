@@ -1,0 +1,45 @@
+#home1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+#home2 {
+  text-align: center;
+  padding: 5rem;
+  color: white;
+  background-color: #132b83;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+#home3 {
+  text-align: center;
+  padding: 5rem;
+  color: white;
+  background-color: #fea900;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+#home4,
+#home5 {
+  padding: 1rem;
+}
+#home7 {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+#home8 {
+  color: #132b83;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#home10 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  float: right;
+  color: #132b83;
+}
