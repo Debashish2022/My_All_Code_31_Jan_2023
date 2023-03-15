@@ -1,0 +1,25 @@
+#faq_title {
+  font-size: x-large;
+  font-family: exo;
+  font-weight: 700;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  color: #0b3ed9;
+}
+
+#loaderContainerFaq {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+#containerFaq {
+  min-height: 60vh;
+}
+
+#containerFaq::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,141 @@
+#bidsdetails1 {
+  width: 80%;
+  margin-top: 2rem;
+  border-radius: 0.8rem;
+}
+
+#bidsdetails1ImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bidsDetailsModalBody {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#bidsdetails2 {
+  font-family: "Exo";
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+#bidsdetails3 {
+  font-family: "Exo";
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #E47013;
+}
+#bidsdetails4 {
+  font-family: "Exo";
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #000;
+  text-align: justify;
+  margin-top: 1rem;
+}
+#bidsdetails5 {
+  font-family: "Exo";
+  font-size: medium;
+  font-weight: 500;
+  color: #000;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#bidsdetails6 {
+  background-color: #E47013;
+  border: none;
+  font-family: 'Exo';
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+#bidsdetails7 {
+  display: none;
+}
+#bidsheader {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: Exo;
+}
+#bidsheader1 {
+  font-size: 0.7rem;
+  font-family: Exo;
+}
+
+#tableBtnsBidsModal {
+  margin: 0px;
+  border-radius: 5px;
+  border: none;
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.6rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+#downloadBtnsBidsModal {
+  margin: 0px;
+  border-radius: 5px;
+  background-color: #362989;
+  border: none;
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.6rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+} 
+
+#closeBtnBidsModal {
+  margin-right: 1rem;
+  background: #362989;
+  border-radius: 5px;
+  border: none;
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.6rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+#bidsStatusDiv {
+  background: #1848d9;
+  padding: 0.2rem 0.5rem;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: larger;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#tableForBidsDetailsModal {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+#aTagDownloadQuotation {
+  text-decoration: none;
+  color: #fff;
+}
+
+#aTagDownloadSheet {
+  text-decoration: none;
+  color: #fff;
+}
+
+#bidwinnerlabel {
+  color: #362989 ;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Exo;
+}

@@ -1,0 +1,15 @@
+#contactuscardicon1 {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  justify-content: space-evenly;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+}

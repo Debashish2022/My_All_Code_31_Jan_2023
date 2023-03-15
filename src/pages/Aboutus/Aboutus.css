@@ -1,0 +1,97 @@
+#abt1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 8rem;
+  color: aliceblue;
+  font-family: Exo;
+}
+#abt2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #32c36c;
+  font-family: Exo;
+}
+#abt3 {
+  background-color: #f2f2f2;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+#abt5 {
+  width: 90%;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+#abt6 {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+#abt7 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  font-family: Exo;
+}
+#abt8 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #483999;
+  font-family: Exo;
+}
+#abt9 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 2rem;
+  font-family: Exo;
+}
+#abt10 {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+#abt12 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #483999;
+  line-height: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-family: Exo;
+  text-align: center;
+}
+#abt13 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 2rem;
+  font-family: Exo;
+}
+.abtcard1 {
+  background-color: #0b3ed9;
+}
+.abtcard2 {
+  background-color: #e47013;
+}
+#abtcard {
+  font-size: 1.5rem;
+  color: #eeeeee;
+  font-weight: 600;
+  font-family: Exo;
+}
+
+#abtcard3 {
+  font-size: 3rem;
+  color: #362989;
+  font-weight: 600;
+  font-family: Exo;
+}
+
+#contactUsBtn {
+  background: #362989;
+  box-shadow: 1px 3px 10px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  border: 0px;
+}

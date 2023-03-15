@@ -1,0 +1,27 @@
+#con {
+  font-size: 1.5rem;
+}
+#one {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #000000;
+  font-family: "Exo";
+  text-align: justify;
+}
+
+#loaderContainerTerms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#containerTerms {
+  min-height: 60vh;
+  overflow: auto;
+}
+
+#containerTerms::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,83 @@
+#home1 {
+  padding: 0;
+}
+#home2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #085ca6;
+  font-family: Exo;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+#exploreTxtRow {
+  margin-right: 0px !important;
+}
+#home3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #1f2230;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Exo;
+  margin-bottom: 2rem;
+}
+#home4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+#home5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #085ca6;
+  font-family: Exo;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+#showMoreBtnDiv {
+  padding: 0px;
+  text-align: center;
+}
+
+#showMoreBtn {
+  border: 1px solid #e47013;
+  background: none;
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #085ca6;
+}
+
+#home6 {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+}
+#home7{
+  height: 70vh;
+}
+@media only screen and (max-width: 900px) {
+  #home7{
+    height: 30vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #home7{
+    height: 25vh;
+  }
+}
